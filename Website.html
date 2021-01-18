@@ -1,0 +1,111 @@
+<html>
+<head>
+      <meta charset="UTF-8">
+      <title></title>
+      <link rel="stylesheet" href="wesite.css">
+</head>
+<body>
+	<section id="header">
+		<div class="container">
+		      <img src="images/logo.jpg" class="logo">
+		      <div class="header-text">
+		      <h1>The purpose is to teach and educate class 6 students</h1>
+		      <span class="square"></span>
+		      <p>We are a brother and sister duo and I am Jai (big brother) of my little sister Yami and we both are learning html5 from various youtube channels. We learn new things every day and I seriously love html5 also I will teach students of class 6 . You can also visit my <a href="https://www.youtube.com/channel/UCmYhwFFLFjjATZwyoOtcnZA/videos">Youtube channel</a>.</p>
+		      <button class="common-btn">Read More</button>
+		</div>
+	</section>
+	<nav id="sideNav">
+	      <ul>
+	      <h2><li><a href="#">Home</a></li></h2>
+	      <h2><li><a href="#">About me</a></li></h2>
+	      <h2><li><a href="#">Features</a></li></h2>
+	      <h2><li><a href="#">Courses</a></li></h2>
+	      <h2><li><a href="#">Our team</a></li></h2>
+	      <h2><li><a href="#">Contact</a></li></h2>
+	      </ul>
+	</nav>  
+	<img src="images/menu.png" id="menuBtn">
+    <!--about  -->
+	
+	<section id="about">
+	    <div class="about-left-col">
+	          <img src="images/about.png">
+	    </div>
+	    <div class="about-right-col"></div>
+	    <div class="about-text">
+	    <h1>About me</h1><br><br>
+	    <b><p>My name is Jai Rawat. I am 11 years old, read in class 6th standard. I have an little sister. I have a joint family in which my mom, dad, grandparents and my sister lives. I love doing html and I always learn something new everyday.</p></b><br><br>
+	    <h2>“Education is the most powerful weapon which you can use to change the world.”</h2>     
+        <H3>― Nelson Mandela</H3>
+	    </div>        
+	</section> 
+<!--features-->
+
+<section id="features">
+          <div class="feature-row">
+          <div class="feature-col">
+               <img src="images/pic-1.png">
+               <h4>Learn anywhere</h4>
+               <p>Switch between your<br> computer, tablet or mobile device</p>
+          </div>
+          <div class="feature-col">
+          <img src="images/pic-2.png">
+               <h4>Expert Teaching</h4>
+               <p>Learn from industry experts<br> who are passionate about teaching.</p>
+          </div>
+          <div class="feature-col">
+          
+          <img src="images/pic-3.png">
+               <h4>Unlimited Access</h4>
+               <p>Choose what you'd like to learn<br> from our extensive subscription library.</p>
+               </div>
+          </div>
+          <div class="feature-btn">
+          <button class="common-btn">Register in</button>
+          </div>
+</section>
+<!--courses-->
+ 
+ <section id="courses">
+     <div class="container course-row">
+      <div class="course-left-col">
+           <div class="course-text">
+                 <h1>Browse our top<br>courses</h1>
+                 <p>My goal is to bring learning to people<BR> we teach every subject in detail<br> you can ask quetions give suggetions to improve and many more<br> you just have to <br><button class="common-btn">Register in</button></p>
+           </div>
+      </div>
+     <div class="course-right-col">
+            <img src="images/courses.png" width="1000" height="900">
+      </div>
+     </div>
+ </section>
+ <!--Our team-->
+ <section class="our-team">
+	 <h1>Our Team</h1>
+ <span><img src="/home/pi/Desktop/Photos/JAI.jpg" width="300" height="305" class="rotate270"></span> 
+        <span><img src="/home/pi/Desktop/Photos/Yami.jpg" width="300" height="305" class="rotate270"></span>
+	    <span><img src="/home/pi/Desktop/Photos/mumma.jpg" width="300" height="305" class="rotate90"></span>
+	   <img src="/home/pi/Desktop/Photos/papa.png" width="300" height="305">
+	   <span><img src="/home/pi/Desktop/Photos/dadi.jpg" width="300" height="305"></span>
+	    <span><img src="/home/pi/Desktop/Photos/dadu.jpg" width="300" height="305"></span>
+ 
+ 
+ </section>
+    <script>
+          var menuBtn = document.getElementById("menuBtn");    
+          var sideNav = document.getElementById("sideNav");
+          
+           sideNav.style.right= "-250px";
+           menuBtn.onclick = function(){
+			      if(sideNav.style.right == "-250px"){
+					   sideNav.style.right = "0";
+					  }
+					  else{
+						  sideNav.style.right = "-250px";
+						  }
+			           }
+           </script>
+
+</body>
+</html>
